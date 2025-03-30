@@ -1066,7 +1066,7 @@
                                 children: "WENTIANPLAY"
                             }), (0, l.jsx)("h2", {
                                 className: "text-white font-medium text-xs mt-1 lg:mt-0 lg:text-xl text-right lg:leading-1 font-regular font-source-han-sans-sc-heavy",
-                                children: "\xa92024WenTianPlay"
+                                children: "\\xa92024YoMioBEYOUNG"
                             })]
                         })
                     })
