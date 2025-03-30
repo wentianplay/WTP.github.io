@@ -225,8 +225,8 @@
             }, {
                 icon: "/assets/products/icon-3.png",
                 title: "文天玩",
-                description: "WenTianPlay创始人",
-                link: "https://space.bilibili.com/1607684364"
+                description: "WenTianPlay",
+                link: "https://space.bilibili.com/3546720042486376"
             }, {
                 icon: "/assets/products/icon-4.png",
                 title: "杂货铺",
@@ -421,7 +421,7 @@
                         msOverflowStyle: "none",
                         lineHeight: "1.45"
                     },
-                    children: "文天玩WenTianPlay成立于2025年，我们是一个年轻有活力的团队，致力于二次元ACG文化在各个领域的探索，对一切新鲜事物充满热忱。\n\n起初大家因为对二次元的热爱走在了一起，凝聚了许多不同领域志同道合的小伙伴。我们曾与众多知名游戏公司进行合作，创作出了无数优质的短片，全网播放达一亿。\n\n2024年初我们开始着手于AIGC与二次元文化的深度结合，推出WenTianPlay AI原生二次元UCG平台与天彬TianBin二次元游戏等产品，秉承着“Otakus Make AI Fun”的使命。\n\n时空的变易会让人遗忘很多，长河的冲刷只会留下细沙卵石，但熄灭不了的从来是那份炽热的信念。我们将永葆初心，永远对ACG文化保持热爱，为大家带来一场饕餮盛宴。致心中最初的光！\n\n联系方式: hi@WenTianPlay.cn"
+                    children: "文天玩WenTianPlay创立于2024年5月3日，我们是一个年轻有活力的团队，致力于二次元ACG文化在各个领域的探索，对一切新鲜事物充满热忱。\n\n起初大家因为对二次元的热爱走在了一起，凝聚了许多不同领域志同道合的小伙伴。我们曾与众多知名游戏公司进行合作，创作出了无数优质的短片，全网播放达一亿。\n\n2024年初我们开始着手于AIGC与二次元文化的深度结合，推出WenTianPlay AI原生二次元UCG平台与天彬TianBin二次元游戏等产品，秉承着“Otakus Make AI Fun”的使命。\n\n时空的变易会让人遗忘很多，长河的冲刷只会留下细沙卵石，但熄灭不了的从来是那份炽热的信念。我们将永葆初心，永远对ACG文化保持热爱，为大家带来一场饕餮盛宴。致心中最初的光！\n\n联系方式: hi@WenTianPlay.cn"
                 }),
                 I = () => (0, l.jsx)("div", {
                     className: "lg:hidden black h-full w-full flex flex-col justify-start items-start ",
@@ -441,7 +441,7 @@
                         }), (0, l.jsxs)("div", {
                             className: "px-4 ml-2",
                             children: [(0, l.jsx)(O, {
-                                title: "关于 WenTianPlay",
+                                title: "关于 文天玩",
                                 description: "ABOUT WENTIANPLAY"
                             }), (0, l.jsx)(k, {})]
                         })]
@@ -489,7 +489,7 @@
                         }), (0, l.jsx)("div", {
                             className: "flex flex-col justify-start items-start lg:w-[328px]",
                             children: (0, l.jsx)(S, {
-                                title: "关于 WENTIANPLAY",
+                                title: "关于 文天玩",
                                 description: "ABOUT WENTIANPLAY"
                             })
                         }), (0, l.jsx)(k, {})]
