@@ -226,7 +226,7 @@
                 icon: "/assets/products/icon-3.png",
                 title: "文天玩",
                 description: "WENTIANPLAY",
-                link: "https://space.bilibili.com/97233126"
+                link: "https://space.bilibili.com/3546720042486376"
             }, {
                 icon: "/assets/products/icon-4.png",
                 title: "杂货铺",
@@ -1362,7 +1362,7 @@
                         }), (0, l.jsx)("div", {
                             className: "w-8",
                             children: (0, l.jsx)(Y.default, {
-                                href: "https://space.bilibili.com/261571362",
+                                href: "https://space.bilibili.com/1607684364",
                                 target: "_blank",
                                 children: (0, l.jsx)(b.Z, {
                                     src: c ? "/assets/common/nav-corner/bilibili-hover.png" : "/assets/common/nav-corner/bilibili.png",
