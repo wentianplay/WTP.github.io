@@ -441,7 +441,7 @@
                         }), (0, l.jsxs)("div", {
                             className: "px-4 ml-2",
                             children: [(0, l.jsx)(O, {
-                                title: "关于 文天玩",
+                                title: "关于 WenTianPlay",
                                 description: "ABOUT WENTIANPLAY"
                             }), (0, l.jsx)(k, {})]
                         })]
@@ -489,7 +489,7 @@
                         }), (0, l.jsx)("div", {
                             className: "flex flex-col justify-start items-start lg:w-[328px]",
                             children: (0, l.jsx)(S, {
-                                title: "关于 文天玩",
+                                title: "关于 WENTIANPLAY",
                                 description: "ABOUT WENTIANPLAY"
                             })
                         }), (0, l.jsx)(k, {})]
