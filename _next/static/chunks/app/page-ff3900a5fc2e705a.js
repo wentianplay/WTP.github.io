@@ -1112,7 +1112,7 @@
                                         },
                                         children: [(0, l.jsx)("div", {
                                             className: "text-9xl font-black text-golden transform -rotate-90",
-                                            "
+                                            children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
                                         }), (0, l.jsx)("div", {
                                             className: "text-3xl font-black text-golden transform -rotate-90 ml-36",
                                             children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
@@ -1150,7 +1150,7 @@
                                     },
                                     children: [(0, l.jsx)("div", {
                                         className: "text-3xl font-black text-golden",
-                                        children: "YOMIOBEYONGYOMIOBEYONGYOMIOBEYONGYOMIOBEYONGYOMIOBEYONG"
+                                        children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
                                     }), (0, l.jsx)("div", {
                                         className: "text-md font-black text-golden ",
                                         children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
