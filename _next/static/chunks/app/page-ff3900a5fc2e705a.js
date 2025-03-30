@@ -214,24 +214,24 @@
             };
             let j = [{
                 icon: "/assets/products/icon-1.png",
-                title: "WenTianPlay AI",
+                title: "Rubii AI",
                 description: "AI动漫角色扮演聊天",
-                link: "https://Ai.WenTianPlay.cn"
+                link: "https://rubii.ai?utm_source=yomio.cn"
             }, {
                 icon: "/assets/products/icon-2.png",
-                title: "天彬TianBin",
+                title: "赤潮ZeroERA",
                 description: "属于正太的二次元游戏",
-                link: "https://cc.wentianplay.cn"
+                link: "https://cc.yomio.cn"
             }, {
                 icon: "/assets/products/icon-3.png",
-                title: "文天玩",
-                description: "WENTIANPLAY",
-                link: "https://space.bilibili.com/3546720042486376" 
+                title: "悠喵映画",
+                description: "ANIMATION",
+                link: "https://space.bilibili.com/97233126"
             }, {
                 icon: "/assets/products/icon-4.png",
                 title: "杂货铺",
                 description: "TAOBAO SHOP",
-                link: "https://m.tb.cn/暂未公开"
+                link: "https://m.tb.cn/h.TaZn9SdbrVxOFMN"
             }];
             var b = s(7775);
             let w = e => {
@@ -421,7 +421,7 @@
                         msOverflowStyle: "none",
                         lineHeight: "1.45"
                     },
-                    children: "文天玩WenTianPlay创立于2024年5月3日，我们是一个年轻有活力的团队，致力于二次元ACG文化在各个领域的探索，对一切新鲜事物充满热忱。\n\n起初大家因为对二次元的热爱走在了一起，凝聚了许多不同领域志同道合的小伙伴。我们曾与众多知名游戏公司进行合作，创作出了无数优质的短片，全网播放达七亿。\n\n2024年初我们开始着手于AIGC与二次元文化的深度结合，推出WenTianPlay AI原生二次元UCG平台与天彬TianBin二次元游戏等产品，秉承着“Otakus Make AI Fun”的使命。\n\n时空的变易会让人遗忘很多，长河的冲刷只会留下细沙卵石，但熄灭不了的从来是那份炽热的信念。我们将永葆初心，永远对ACG文化保持热爱，为大家带来一场饕餮盛宴。致心中最初的光！\n\n联系方式: hi@wentianplay.cn"
+                    children: "悠喵YoMio成立于2022年，我们是一个年轻有活力的团队，致力于二次元ACG文化在各个领域的探索，对一切新鲜事物充满热忱。\n\n起初大家因为对二次元的热爱走在了一起，凝聚了许多不同领域志同道合的小伙伴。我们曾与众多知名游戏公司进行合作，创作出了无数优质的短片，全网播放达一亿。\n\n2024年初我们开始着手于AIGC与二次元文化的深度结合，推出Rubii AI原生二次元UCG平台与赤潮ZeroERA二次元游戏等产品，秉承着“Otakus Make AI Fun”的使命。\n\n时空的变易会让人遗忘很多，长河的冲刷只会留下细沙卵石，但熄灭不了的从来是那份炽热的信念。我们将永葆初心，永远对ACG文化保持热爱，为大家带来一场饕餮盛宴。致心中最初的光！\n\n联系方式: hi@yomio.cn"
                 }),
                 I = () => (0, l.jsx)("div", {
                     className: "lg:hidden black h-full w-full flex flex-col justify-start items-start ",
@@ -441,8 +441,8 @@
                         }), (0, l.jsxs)("div", {
                             className: "px-4 ml-2",
                             children: [(0, l.jsx)(O, {
-                                title: "关于 WenTianPlay",
-                                description: "ABOUT WENTIANPLAY"
+                                title: "关于 Yomio",
+                                description: "ABOUT YOMIO"
                             }), (0, l.jsx)(k, {})]
                         })]
                     })
@@ -489,8 +489,8 @@
                         }), (0, l.jsx)("div", {
                             className: "flex flex-col justify-start items-start lg:w-[328px]",
                             children: (0, l.jsx)(S, {
-                                title: "关于 WenTianPlay",
-                                description: "ABOUT WENTIANPLAY"
+                                title: "关于 Yomio",
+                                description: "ABOUT YOMIO"
                             })
                         }), (0, l.jsx)(k, {})]
                     })
@@ -591,15 +591,15 @@
                     return (0, l.jsxs)("section", {
                         className: "flex flex-col justify-start items-start w-full mt-60 lg:mt-[185px] lg:ml-20 font-source-han-sans-sc-medium z-[100]",
                         children: [(0, l.jsx)(S, {
-                            title: "加入WenTianPlay",
-                            description: "JOIN WENTIANPLAY"
+                            title: "加入Yomio",
+                            description: "JOIN YOMIO"
                         }), (0, l.jsx)("div", {
                             className: "flex flex-col justify-start items-start w-full lg:w-[380px] ml-2",
                             children: r
                         }), (0, l.jsx)("div", {
                             className: "lg:flex flex-row justify-end items-center",
                             children: (0, l.jsx)(Y.default, {
-                     href: "https://seknhv55ov.feishu.cn/share/base/form/未公开",
+                                href: "https://seknhv55ov.feishu.cn/share/base/form/shrcnQnnegJdKm5MnoVTgByUgxc",
                                 target: "_blank",
                                 rel: "noreferrer",
                                 className: "bg-golden text-[#070707] text-sm font-bold py-2 px-4 mt-6 rounded-sm hover:text-white hover:bg-opacity-70 ml-2 z-[100]",
@@ -609,7 +609,7 @@
                             className: "fixed z-50 w-full bottom-4 pl-72 left-0 bg-transparent h-6 flex flex-row justify-start items-center",
                             children: [(0, l.jsx)("span", {
                                 className: "text-xs text-white/50 leading-5 text-left not-italic",
-                                children: "\xa9️2024-2025 WenTianPlay Co.,Ltd. all right reserved."
+                                children: "\xa9️2022-2024 YoMioBEYOUNG Co.,Ltd. all right reserved."
                             }), (0, l.jsx)(b.Z, {
                                 src: "/assets/footer-icon/police-icon.png",
                                 alt: "logo",
@@ -1063,7 +1063,7 @@
                             className: "flex flex-col justify-start items-start lg:pl-16 pl-4 h-24 lg:h-[134px] absolute bottom-0 w-screen z-50",
                             children: [(0, l.jsx)("h1", {
                                 className: "font-extrabold lg:text-4xl text-2xl text-white  text-left font-oswald-heavy mt-2",
-                                children: "WENTIANPLAY"
+                                children: "YOMIO"
                             }), (0, l.jsx)("h2", {
                                 className: "text-white font-medium text-xs mt-1 lg:mt-0 lg:text-xl text-right lg:leading-1 font-regular font-source-han-sans-sc-heavy",
                                 children: "\xa92024YoMioBEYOUNG"
@@ -1112,7 +1112,7 @@
                                         },
                                         children: [(0, l.jsx)("div", {
                                             className: "text-9xl font-black text-golden transform -rotate-90",
-                                            children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
+                                            children: "YOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNG"
                                         }), (0, l.jsx)("div", {
                                             className: "text-3xl font-black text-golden transform -rotate-90 ml-36",
                                             children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
@@ -1150,7 +1150,7 @@
                                     },
                                     children: [(0, l.jsx)("div", {
                                         className: "text-3xl font-black text-golden",
-                                        children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
+                                        children: "YOMIOBEYONGYOMIOBEYONGYOMIOBEYONGYOMIOBEYONGYOMIOBEYONG"
                                     }), (0, l.jsx)("div", {
                                         className: "text-md font-black text-golden ",
                                         children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
@@ -1362,7 +1362,7 @@
                         }), (0, l.jsx)("div", {
                             className: "w-8",
                             children: (0, l.jsx)(Y.default, {
-                                href: "https://space.bilibili.com/1607684364",
+                                href: "https://space.bilibili.com/261571362",
                                 target: "_blank",
                                 children: (0, l.jsx)(b.Z, {
                                     src: c ? "/assets/common/nav-corner/bilibili-hover.png" : "/assets/common/nav-corner/bilibili.png",
