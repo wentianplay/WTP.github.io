@@ -489,8 +489,8 @@
                         }), (0, l.jsx)("div", {
                             className: "flex flex-col justify-start items-start lg:w-[328px]",
                             children: (0, l.jsx)(S, {
-                                title: "关于 Yomio",
-                                description: "ABOUT YOMIO"
+                                title: "关于 WenTianPlay",
+                                description: "ABOUT WENTIANPLAY"
                             })
                         }), (0, l.jsx)(k, {})]
                     })
@@ -599,7 +599,7 @@
                         }), (0, l.jsx)("div", {
                             className: "lg:flex flex-row justify-end items-center",
                             children: (0, l.jsx)(Y.default, {
-                     ",
+                     href: "https://seknhv55ov.feishu.cn/share/base/form/未公开",
                                 target: "_blank",
                                 rel: "noreferrer",
                                 className: "bg-golden text-[#070707] text-sm font-bold py-2 px-4 mt-6 rounded-sm hover:text-white hover:bg-opacity-70 ml-2 z-[100]",
@@ -1112,7 +1112,7 @@
                                         },
                                         children: [(0, l.jsx)("div", {
                                             className: "text-9xl font-black text-golden transform -rotate-90",
-                                            children: "YOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNG"
+                                            "
                                         }), (0, l.jsx)("div", {
                                             className: "text-3xl font-black text-golden transform -rotate-90 ml-36",
                                             children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
