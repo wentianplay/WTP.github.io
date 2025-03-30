@@ -441,7 +441,7 @@
                         }), (0, l.jsxs)("div", {
                             className: "px-4 ml-2",
                             children: [(0, l.jsx)(O, {
-                                title: "关于 Yomio",
+                                title: "关于 WenTianPlay",
                                 description: "ABOUT WENTIANPLAY"
                             }), (0, l.jsx)(k, {})]
                         })]
@@ -591,8 +591,8 @@
                     return (0, l.jsxs)("section", {
                         className: "flex flex-col justify-start items-start w-full mt-60 lg:mt-[185px] lg:ml-20 font-source-han-sans-sc-medium z-[100]",
                         children: [(0, l.jsx)(S, {
-                            title: "加入Yomio",
-                            description: "JOIN YOMIO"
+                            title: "加入WenTianPlay",
+                            description: "JOIN WENTIANPLAY"
                         }), (0, l.jsx)("div", {
                             className: "flex flex-col justify-start items-start w-full lg:w-[380px] ml-2",
                             children: r
@@ -1063,10 +1063,10 @@
                             className: "flex flex-col justify-start items-start lg:pl-16 pl-4 h-24 lg:h-[134px] absolute bottom-0 w-screen z-50",
                             children: [(0, l.jsx)("h1", {
                                 className: "font-extrabold lg:text-4xl text-2xl text-white  text-left font-oswald-heavy mt-2",
-                                children: "YOMIO"
+                                children: "WENTIANPLAY"
                             }), (0, l.jsx)("h2", {
                                 className: "text-white font-medium text-xs mt-1 lg:mt-0 lg:text-xl text-right lg:leading-1 font-regular font-source-han-sans-sc-heavy",
-                                children: "\xa92024YoMioBEYOUNG"
+                                children: "\xa92024WenTianPlay"
                             })]
                         })
                     })
