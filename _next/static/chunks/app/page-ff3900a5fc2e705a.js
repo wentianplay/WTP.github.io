@@ -226,7 +226,7 @@
                 icon: "/assets/products/icon-3.png",
                 title: "文天玩",
                 description: "WENTIANPLAY",
-                link: "https://space.bilibili.com/1607684364" 
+                link: "https://space.bilibili.com/3546720042486376" 
             }, {
                 icon: "/assets/products/icon-4.png",
                 title: "杂货铺",
