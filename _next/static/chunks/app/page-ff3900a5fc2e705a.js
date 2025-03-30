@@ -224,9 +224,9 @@
                 link: "https://cc.WenTianPlay.cn"
             }, {
                 icon: "/assets/products/icon-3.png",
-                title: "文天玩",
-                description: "WenTianPlay",
-                link: "https://space.bilibili.com/3546720042486376"
+                title: "文天玩创始人",
+                description: "WenTianPlay创始人",
+                link: "https://space.bilibili.com/1607684364"
             }, {
                 icon: "/assets/products/icon-4.png",
                 title: "杂货铺",
