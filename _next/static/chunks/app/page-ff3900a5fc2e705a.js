@@ -618,7 +618,7 @@
                                 height: 14
                             }), (0, l.jsx)("span", {
                                 className: "ml-[2px]  font-normal text-[12px] text-white/50 leading-[17px] text-left not-italic",
-                                children: "备案许可证编号:<a href="https://icp.gov.moe/?keyword=20258956" target="_blank">萌ICP备20258956号</a>"
+                                children: "备案许可证编号:萌ICP备20258956号"
                             })]
                         })]
                     }, s)
