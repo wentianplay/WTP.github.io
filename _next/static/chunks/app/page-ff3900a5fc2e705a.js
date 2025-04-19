@@ -1063,10 +1063,10 @@
                             className: "flex flex-col justify-start items-start lg:pl-16 pl-4 h-24 lg:h-[134px] absolute bottom-0 w-screen z-50",
                             children: [(0, l.jsx)("h1", {
                                 className: "font-extrabold lg:text-4xl text-2xl text-white  text-left font-oswald-heavy mt-2",
-                                children: "WENTIANPLAY"
+                                children: "YOMIO"
                             }), (0, l.jsx)("h2", {
                                 className: "text-white font-medium text-xs mt-1 lg:mt-0 lg:text-xl text-right lg:leading-1 font-regular font-source-han-sans-sc-heavy",
-                                children: "\xa92024WenTianPlay"
+                                children: "\xa92024YoMioBEYOUNG"
                             })]
                         })
                     })
@@ -1112,7 +1112,7 @@
                                         },
                                         children: [(0, l.jsx)("div", {
                                             className: "text-9xl font-black text-golden transform -rotate-90",
-                                            children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
+                                            children: "YOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNGYOMIOBEYOUNG"
                                         }), (0, l.jsx)("div", {
                                             className: "text-3xl font-black text-golden transform -rotate-90 ml-36",
                                             children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
@@ -1150,7 +1150,7 @@
                                     },
                                     children: [(0, l.jsx)("div", {
                                         className: "text-3xl font-black text-golden",
-                                        children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
+                                        children: "YOMIOBEYONGYOMIOBEYONGYOMIOBEYONGYOMIOBEYONGYOMIOBEYONG"
                                     }), (0, l.jsx)("div", {
                                         className: "text-md font-black text-golden ",
                                         children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
