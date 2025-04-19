@@ -1112,7 +1112,7 @@
                                         },
                                         children: [(0, l.jsx)("div", {
                                             className: "text-9xl font-black text-golden transform -rotate-90",
-                                            children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
+                                            children: "WENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAYWENTIANPLAY"
                                         }), (0, l.jsx)("div", {
                                             className: "text-3xl font-black text-golden transform -rotate-90 ml-36",
                                             children: "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
