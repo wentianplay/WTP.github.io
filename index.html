@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>文天玩WenTianPlay官方官网</title>
     <link id="icon" rel="shortcut icon" href="https://www.wentianplay.com/index/API/assets/icon.ico">
+
+<script src="https://www.wentianplay.com/API/op.js">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <script>
@@ -178,7 +180,7 @@
         // 自动跳转
         setTimeout(function() {
             window.location.href = 'https://book.qidian.com/info/1041003789/';
-        }, 5000); // 5秒后跳转
+        }, 10000); // 10秒后跳转
 
         // 进度条动画
         const progressBar = document.getElementById('progress-bar');
@@ -190,10 +192,8 @@
                 width--;
                 progressBar.style.width = width + '%';
             }
-        }, 50); // 每50ms减少1%
+        }, 100); // 每100ms减少1%
     </script>
-
-<script src="https://www.wentianplay.com/API/op.js">
 </body>
 </html>
     
