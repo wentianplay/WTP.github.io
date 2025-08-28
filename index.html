@@ -18,8 +18,31 @@
     width: 100%;
     z-index: 2;
     top: 60%;
-    background-color: rgba(144, 238, 144, 0.4);
-        }
+
+    /* 按钮样式 */
+    background-color: rgba(255, 255, 255, 0.3); /* 浅色背景，30% 不透明（即70%透明） */
+    color: #fff;                /* 白色文字，确保在浅色背景上可见 */
+    padding: 15px 30px;         /* 按钮内边距 */
+    text-align: center;         /* 文字居中 */
+    font-size: 18px;            /* 字体大小 */
+    border-radius: 70%;         /* 圆角70% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影提升质感 */
+    cursor: pointer;            /* 鼠标悬停时显示为指针 */
+    backdrop-filter: blur(5px); /* 可选：背景模糊，现代浏览器支持 */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* 可选边框，增强按钮感 */
+    max-width: 200px;           /* 控制按钮宽度 */
+    margin: 0 auto;             /* 水平居中 */
+    left: 0;
+    right: 0;
+    text-decoration: none;      /* 如果是链接，去除下划线 */
+    display: block;             /* 块级元素 */
+    transition: background-color 0.3s ease; /* 悬停动画 */
+}
+
+/* 可选：悬停效果 */
+#Layer1:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* 悬停时更不透明 */
+}
 
         .STYLE3 {
             font-size: medium
