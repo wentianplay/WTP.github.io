@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
     <title>文天玩WenTianPlay官方网站</title>
     <meta name="description" content="我们是「天彬TianBin」的制作团队！文天玩WenTianPlay(文天玩网络科技有限公司)建立于2017年3月12日，创立于2024年5月3日……，我们是一个年轻有活力的团队，致力于二次元ACG文化在各个领域的探索，2024年我们开始着手于AIGC与二次元文化的深度结合，推出WenTianPlay AI原生二次元UCG平台与天彬TianBin二次元游戏等产品。"/>
     <link rel="stylesheet" type="text/css" href="index/normalize.css" />
@@ -13,39 +13,39 @@
 
     <style type="text/css">
         html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #333333; 
-      color: white; 
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #333333; 
+            color: white; 
         }
         #Layer1 {
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-    top: 56%;
-    background-color: rgba(255, 255, 255, 0.3); 
-    color: #FF8956;              
-    padding: 15px 30px;        
-    text-align: center;        
-    font-size: 18px;          
-    border-radius: 70%;         
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    cursor: pointer;           
-    backdrop-filter: blur(5px); 
-    border: 1px solid rgba(255, 255, 255, 0.5); 
-    max-width: 200px;          
-    margin: 0 auto;            
-    left: 0;
-    right: 0;
-    text-decoration: none;      
-    display: block;            
-    transition: background-color 0.3s ease; 
+            position: absolute;
+            width: 100%;
+            z-index: 2;
+            top: 56%;
+            background-color: rgba(255, 255, 255, 0.3); 
+            color: #FF8956;              
+            padding: 15px 30px;        
+            text-align: center;        
+            font-size: 18px;          
+            border-radius: 70%;         
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            cursor: pointer;           
+            backdrop-filter: blur(5px); 
+            border: 1px solid rgba(255, 255, 255, 0.5); 
+            max-width: 200px;          
+            margin: 0 auto;            
+            left: 0;
+            right: 0;
+            text-decoration: none;      
+            display: block;            
+            transition: background-color 0.3s ease; 
         }
 
-#Layer1:hover {
-    background-color: rgba(255, 255, 255, 0.5); 
+        #Layer1:hover {
+            background-color: rgba(255, 255, 255, 0.5); 
         }
 
         .STYLE3 {
@@ -57,11 +57,22 @@
             margin-top: 100px;
             position: relative;
             bottom: 10px;
+            color: #ccc; /* 灰色字体，更符合页脚风格 */
+            font-size: 14px; /* 设置页脚字体大小 */
+        }
+
+        .footer a {
+            color: #ccc; /* 保持链接颜色与文字一致 */
+            text-decoration: none; /* 去掉下划线 */
+        }
+
+        .footer a:hover {
+            text-decoration: underline; /* 鼠标悬停时显示下划线，提升可点击性 */
+            color: #fff; /* 悬停时颜色变白 */
         }
 
         .TianBIN {
         }
-    </style>
     </style>
 
 </head>
@@ -73,13 +84,20 @@
                 <canvas id="demo-canvas" width="1590" height="100%"></canvas>
                 <h1 class="main-title"><font color="#008373">文天玩WenTianPlay</font><br /><span class="STYLE3">《<font color="#FF5600">天彬TianBIN</font>》<font color="#FF4228">开发商</font></span></h1>
             </div>
-       
-        <nav class="codrops-demos">
-        <a href="#" id="Layer1">点击按钮</a>
+
+            <nav class="codrops-demos">
+                <a href="https://www.tianbin.net" id="Layer1">前往官网</a>
             </div>
         </div>
-  </div>
+    </div>
     <div id="div"><h2 class="h111"></h2></div>
+
+    <!-- 页脚，包含版权和备案信息 -->
+    <div class="footer">
+        ©文天玩WenTianPlay
+        <br />
+        <a href="https://beian.miit.gov.cn" target="_blank">鄂ICP备20238851号</a>
+    </div>
 
     <script src="index/TweenLite.min.js"></script>
     <script src="index/EasePack.min.js"></script>
@@ -88,5 +106,3 @@
     <audio style="width:0px;height:0px;" controls=controls autoplay="autoplay" loop=loop src="" type="audio/mpeg"></audio>
 </body>
 </html>
-
-
