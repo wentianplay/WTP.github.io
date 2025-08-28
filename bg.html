@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+ <script>
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener("keydown", function(e) {
+            if (e.key === "F12") {
+                e.preventDefault();
+            }
+        });
+
+        document.addEventListener("copy", function(e) {
+            e.preventDefault();
+        });
+    </script><meta name="description" content="我们是「天彬TianBin」的制作团队！文天玩WenTianPlay(文天玩网络科技有限公司)建立于2017年3月12日，创立于2024年5月3日……，我们是一个年轻有活力的团队，致力于二次元ACG文化在各个领域的探索，2024年我们开始着手于AIGC与二次元文化的深度结合，推出WenTianPlay AI原生二次元UCG平台与天彬TianBin二次元游戏等产品。"/>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>官方公告资讯</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* 公告样式 */
+        .announcement {
+            background-color: #3498db;
+            color: white;
+            padding: 0.8rem 2rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .announcement a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: #bdc3c7;
+            font-weight: normal;
+        }
+
+        .news-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .news-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .news-content {
+            padding: 1.5rem;
+        }
+
+        .news-date {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .news-title {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .news-excerpt {
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .read-more:hover {
+            color: #2980b9;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 768px) {
+            .news-list {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .announcement {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+
+</head>
+<body>
+      <header>
+        <div class="container">
+            <h1>文天玩 公告资讯</h1>
+            <p class="subtitle">最新资讯，实时更新</p>
+            <p class="subtitle">【<a href="https://www.wentianplay.cn/bg.html">刷新</a>】</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="news-list" id="newsList">
+            <div class="loading">加载中...</div>
+        </div>
+    </div>
+
+    <script>
+       
+        fetch('jk.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('网络响应不正常，请稍后尝试。');
+                }
+                return response.json();
+            })
+            .then(newsData => {
+                const newsList = document.getElementById('newsList');
+                newsList.innerHTML = ''; 
+
+                
+                newsData.sort((a, b) => {
+                    return new Date(b.updateTime) - new Date(a.updateTime);
+                });
+
+                
+                newsData.forEach(news => {
+                    const newsCard = document.createElement('div');
+                    newsCard.className = 'news-card';
+
+          
+                    const date = new Date(news.updateTime);
+                    const formattedDate = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')} ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`;
+
+                    newsCard.innerHTML = `
+                        <img src="${news.imagePath}" alt="${news.title}" class="news-image">
+                        <div class="news-content">
+                            <div class="news-date">${formattedDate}</div>
+                            <h3 class="news-title">${news.title}</h3>
+                            <p class="news-excerpt">${news.excerpt}</p>
+                            <a href="${news.filePath}" class="read-more">阅读全文 →</a>
+                        </div>
+                    `;
+
+                    newsList.appendChild(newsCard);
+                });
+            })
+            .catch(error => {
+                const newsList = document.getElementById('newsList');
+                newsList.innerHTML = `<div class="loading">加载失败: ${error.message}</div>`;
+                console.error('获取公告资讯数据时出错:', error);
+            });
+        </script>
+</body>
+</html>
